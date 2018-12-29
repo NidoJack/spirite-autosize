@@ -1,0 +1,29 @@
+div {
+  background: url("spirit.png") no-repeat;
+  background-size: 100% 100%; }
+
+.pic {
+  width: 100px;
+  height: 100px; }
+
+.pic1 {
+  background-size: 14rem auto;
+  width: 0.92rem;
+  height: 0.92rem; }
+
+.pic2 {
+  background-size: 14rem auto;
+  width: 0.92rem;
+  height: 0.92rem;
+  background-position: 0rem -0.92rem; }
+
+.pic3 {
+  background-size: 14rem auto;
+  width: 0.9466666667rem;
+  height: 0.9466666667rem;
+  background-position: -1.3333333333rem -2rem; }
+
+a {
+  color: #000; }
+
+/*# sourceMappingURL=index.css.map */

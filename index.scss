@@ -1,0 +1,36 @@
+@function px2rem($px,$rem:75){
+  @return $px/$rem + rem;
+}
+
+div{
+  background: url('spirit.png') no-repeat;
+  background-size: 100% 100%;
+}
+
+.pic{
+  width: 100px;
+  height: 100px;
+}
+.pic1{
+  background-size: px2rem(1050) auto;
+  width: px2rem(69);
+  height: px2rem(69);
+}
+.pic2{
+  background-size: px2rem(1050) auto;
+  width: px2rem(69);
+  height: px2rem(69);
+  background-position: px2rem(0) px2rem(-69);
+}
+.pic3{
+  background-size: px2rem(1050) auto;
+  width: px2rem(71);
+  height:px2rem(71);
+  background-position: px2rem(-100) px2rem(-150);
+}
+.pic{
+
+}
+a{
+  color: #000;
+}
